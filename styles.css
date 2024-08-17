@@ -81,6 +81,28 @@ body, html {
 	border: 2px black;
 }
 
+.footer {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	bottom: 3px;
+	left: 10px;
+
+	backdrop-filter: blur(2px);
+	border-radius: 5px;
+
+	color: pink;
+}
+
+.footer #footer-line-1 {
+	margin-bottom: 3px;
+	
+}
+
+.footer a {
+	color: pink;
+}
+
 
 /* Responsive */
 @media (max-width: 1030px) {
@@ -110,11 +132,15 @@ body, html {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.footer {
+		display: none;
+	}
 }
   
 @media (max-width: 504px) {
 	.main_title {
-		font-size: 2em;
+		font-size: 1.5em;
 		top: 0;
 	}
 
