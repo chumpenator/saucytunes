@@ -112,7 +112,7 @@ body, html {
 }
 
 
-/* Responsive */
+/* RESPONSIVE */
 @media (max-width: 1030px) {
 	.main_title {
 		font-size: 60px;
